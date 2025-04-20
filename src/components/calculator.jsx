@@ -4,7 +4,7 @@ function Calculator() {
   const [firstNumber, setFirstNumber] = useState("");
   const [secondNumber, setSecondNumber] = useState("");
   const [operation, setOperation] = useState("");
-  const [result, setResult] = useState(null);
+  const [result, setResult] = useState("");
   const [error, setError] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
